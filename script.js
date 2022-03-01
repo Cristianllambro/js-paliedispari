@@ -2,6 +2,7 @@
 
 const check = document.getElementById('check');
 const win = document.getElementById('win');
+
 /*
 const wordUser = prompt('Inserisci una parola:');
 let wordReverseUser = wordReverse(wordUser);
@@ -33,7 +34,6 @@ let sum = numberUser + randomNum;
 function numberRandom (min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
-console.log(randomNum)
 
 function numberEven(numberE) {
     if (numberE % 2 == 0) {
@@ -42,7 +42,6 @@ function numberEven(numberE) {
         return false;
     }
 }
-
 
 if (numberEven(sum)) {
     check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è pari.`;

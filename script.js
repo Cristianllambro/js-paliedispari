@@ -1,7 +1,8 @@
 // Esercizio parola palindroma
 
-/*
 const check = document.getElementById('check');
+const win = document.getElementById('win');
+/*
 const wordUser = prompt('Inserisci una parola:');
 let wordReverseUser = wordReverse(wordUser);
 
@@ -42,11 +43,6 @@ function numberEven(numberE) {
     }
 }
 
-if (oddOrEven == numberEven(sum)) {
-    check.innerHTML = 'hai vinto!'
-} else {
-    check.innerHTML = 'Hai perso!'
-}
 
 if (numberEven(sum)) {
     check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è pari.`;
@@ -54,4 +50,9 @@ if (numberEven(sum)) {
     check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è dispari.`
 }
 
+if (oddOrEven == numberEven(sum)) {
+    win.innerHTML = 'hai vinto!'
+} else {
+    win.innerHTML = 'Hai perso!'
+}
 

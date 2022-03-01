@@ -42,12 +42,16 @@ function numberEven(numberE) {
     }
 }
 
-console.log(numberEven)
+if (oddOrEven == numberEven(sum)) {
+    check.innerHTML = 'hai vinto!'
+} else {
+    check.innerHTML = 'Hai perso!'
+}
 
 if (numberEven(sum)) {
     check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è pari.`;
 } else {
     check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è dispari.`
 }
-// document.writeln(numberUser + ' + ' + randomNum + ' = ' + sum);
+
 

@@ -22,16 +22,18 @@ if (wordUser == wordReverseUser) {
 
 // Esercizio pari e dispari 
 
+
 let oddOrEven = prompt('Scegli pari o dispari:');
 let numberUser = parseInt(prompt('Scegli un numero da 1 a 5:'));
 const randomNum = numberRandom(1, 5);
 
 let sum = numberUser + randomNum;
-
+console.log(numberUser)
 
 function numberRandom (min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
+console.log(randomNum)
 
 function numberEven(numberE) {
     if (numberE % 2 == 0) {
@@ -40,6 +42,8 @@ function numberEven(numberE) {
         return false;
     }
 }
+
+console.log(numberEven)
 
 if (numberEven(sum)) {
     check.innerHTML = 'pari';

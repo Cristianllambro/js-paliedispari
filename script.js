@@ -37,21 +37,15 @@ function numberRandom (min, max) {
 
 function numberEven(numberE) {
     if (numberE % 2 == 0) {
-        return true;
+        return 'pari';
     } else {
-        return false;
+        return 'dispari';
     }
 }
 
-if (numberEven(sum)) {
-    check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è pari.`;
-} else {
-    check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è dispari.`
-}
-
 if (oddOrEven == numberEven(sum)) {
-    win.innerHTML = 'hai vinto!'
+    check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Hai vinto!`;
 } else {
-    win.innerHTML = 'Hai perso!'
+    check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Hai perso!`
 }
 

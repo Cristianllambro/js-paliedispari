@@ -46,8 +46,8 @@ function numberEven(numberE) {
 console.log(numberEven)
 
 if (numberEven(sum)) {
-    check.innerHTML = 'pari';
+    check.innerHTML = 'La somma del tuo numero e la somma del numero del computer è pari';
 } else {
-    check.innerHTML = 'dispari'
+    check.innerHTML = 'La somma del tuo numero e la somma del numero del computer è dispari';
 }
 

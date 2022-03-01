@@ -45,8 +45,9 @@ function numberEven(numberE) {
 console.log(numberEven)
 
 if (numberEven(sum)) {
-    check.innerHTML = 'Il tuo numero sommato al numero del computer è un numero pari';
+    check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è pari.`;
 } else {
-    check.innerHTML = 'il tuo numero sommato al numero del computer è un numero dispari';
+    check.innerHTML = `${numberUser  + ' + ' + randomNum + ' = ' + sum + ' '} Il numero è dispari.`
 }
+// document.writeln(numberUser + ' + ' + randomNum + ' = ' + sum);
 

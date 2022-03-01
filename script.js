@@ -25,7 +25,7 @@ if (wordUser == wordReverseUser) {
 // Esercizio pari e dispari 
 
 
-let oddOrEven = prompt('Scegli pari o dispari:');
+let oddOrEven = prompt('Giochiamo a pari o dispari');
 let numberUser = parseInt(prompt('Scegli un numero da 1 a 5:'));
 const randomNum = numberRandom(1, 5);
 

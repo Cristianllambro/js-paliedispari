@@ -28,7 +28,6 @@ let numberUser = parseInt(prompt('Scegli un numero da 1 a 5:'));
 const randomNum = numberRandom(1, 5);
 
 let sum = numberUser + randomNum;
-console.log(numberUser)
 
 function numberRandom (min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -46,8 +45,8 @@ function numberEven(numberE) {
 console.log(numberEven)
 
 if (numberEven(sum)) {
-    check.innerHTML = 'La somma del tuo numero e la somma del numero del computer è pari';
+    check.innerHTML = 'Il tuo numero sommato al numero del computer è un numero pari';
 } else {
-    check.innerHTML = 'La somma del tuo numero e la somma del numero del computer è dispari';
+    check.innerHTML = 'il tuo numero sommato al numero del computer è un numero dispari';
 }
 
